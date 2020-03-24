@@ -1,9 +1,9 @@
 {
   "name": "busywebsite",
   "version": "0.0.0",
-  "main": "server.js",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
