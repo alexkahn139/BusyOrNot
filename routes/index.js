@@ -11,8 +11,9 @@ router.get('/', function(req, res, next) {
     res.render('free', { title: 'Ik ben vrij' }); 
   }
 });
-router.post('/setstate', function(req, res , next){
+router.get('/setstate', function(req, res , next){
   meeting = ! meeting
+  res.redirect('/');
 });
 
 module.exports = router;
