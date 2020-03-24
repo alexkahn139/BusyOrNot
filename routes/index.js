@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
     res.render('notfree', { title: 'Niet storen' });
   }
   else {
-    res.render('free', { title: 'Ik ben vrij' }); 
+    res.render('free', { title: 'Storen mag' }); 
   }
 });
 router.get('/setstate', function(req, res , next){
