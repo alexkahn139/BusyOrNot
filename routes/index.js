@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var meeting = true
+var meeting = false
 /* GET home page. */
 router.get('/', function(req, res, next) {
   if (meeting) {
