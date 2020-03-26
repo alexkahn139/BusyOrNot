@@ -3,3 +3,5 @@ While leaving my dorm during the Corona lockdown, I had to adapt. Living back at
 ## Installation and start 
 `yarn install`  
 `npm start`  
+## Change the state
+Wanting to keep things clean, changing the state of the webpage is done browsing (get) `localhost:3001/setstate`.
